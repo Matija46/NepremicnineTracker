@@ -12,7 +12,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.vintagelove.LoginScreen
-import com.example.vintagelove.PropertyFilterScreen
 import com.example.vintagelove.ui.theme.VintageLoveTheme
 
 class MainActivity : ComponentActivity() {
@@ -24,7 +23,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    PropertyFilterScreen()
+                    LoginScreen()
                 }
             }
         }
